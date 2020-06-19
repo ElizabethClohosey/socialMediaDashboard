@@ -29,9 +29,9 @@
   <header>
     <div class="container-fluid header-container">
       <div class="container">
-        <div class="row mt-4 border-1">
+        <div class="row pt-4">
           <div class="col-md-9">
-            <div class="row border-2">
+            <div class="row">
               <div class="col-md-12">
                 <h1>
                   Social Media Dashboard
@@ -44,13 +44,11 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-sm-6">
-          <div class="row border-3">
-          </div>
-        </div> -->
           <div class="col-md-3">
-            <div class="row justify-content-between border-3">
-              <div class="col-xs-4">Dark Mode</div>
+            <div class="row justify-content-around">
+              <div class="col-xs-6 my-auto">
+                <p class="dark-mode">Dark Mode</p>
+              </div>
               <div class="col-xs-2">
                 <!-- Rounded toggle switch -->
                 <label class="switch">
@@ -59,10 +57,6 @@
                 </label>
               </div>
             </div>
-            <!-- <div class="col-md-6">
-            <div class="row border-3">
-            </div>
-          </div> -->
           </div>
         </div>
       </div>
@@ -72,62 +66,62 @@
   <main class="main-content">
 
     <!-- Start followers Section  -->
-    <section class="followers-section mb-5">
-      <div class="container">
+    <section class="followers-section mb-4">
+      <div class="container px-0">
         <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="card text-center">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card facebook-card text-center">
               <div class="card-body">
-                <div class="mb-3">
-                  <img src="./images/icon-facebook.svg" alt="#">
+                <div class="mb-2">
+                  <img src="./images/icon-facebook.svg" alt="facebook icon - blue box with transparent f">
                   <h5 class="card-title d-inline">@nathanf</h5>
                 </div>
                 <p>1987</p>
                 <p class="mb-3">FOLLOWERS</p>
                 <img src="./images/icon-up.svg">
-                <p class="d-inline">12% Today</p>
+                <p class="increase d-inline">12 Today</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card text-center">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card twitter-card text-center">
               <div class="card-body">
-                <div class="mb-3">
-                  <img src="./images/icon-facebook.svg" alt="#">
+                <div class="mb-2">
+                  <img src="./images/icon-twitter.svg" alt="twitter icon - small blue bird">
                   <h5 class="card-title d-inline">@nathanf</h5>
                 </div>
-                <p>1987</p>
+                <p>1044</p>
                 <p class="mb-3">FOLLOWERS</p>
                 <img src="./images/icon-up.svg">
-                <p class="d-inline">12% Today</p>
+                <p class="increase d-inline">99 Today</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card text-center">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card instagram-card text-center">
               <div class="card-body">
-                <div class="mb-3">
-                  <img src="./images/icon-facebook.svg" alt="#">
-                  <h5 class="card-title d-inline">@nathanf</h5>
+                <div class="mb-2">
+                  <img src="./images/icon-instagram.svg" alt="instagram icon orange and red gradient colored camera">
+                  <h5 class="card-title d-inline">@realnathanf</h5>
                 </div>
-                <p>1987</p>
+                <p>11k</p>
                 <p class="mb-3">FOLLOWERS</p>
                 <img src="./images/icon-up.svg">
-                <p class="d-inline">12% Today</p>
+                <p class="increase d-inline">1099 Today</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card text-center">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card youtube-card text-center">
               <div class="card-body">
-                <div class="mb-3">
-                  <img src="./images/icon-facebook.svg" alt="#">
-                  <h5 class="card-title d-inline">@nathanf</h5>
+                <div class="mb-2">
+                  <img src="./images/icon-youtube.svg" alt="#">
+                  <h5 class="card-title d-inline">Nathan F.</h5>
                 </div>
-                <p>1987</p>
-                <p class="mb-3">FOLLOWERS</p>
-                <img src="./images/icon-up.svg">
-                <p class="d-inline">12% Today</p>
+                <p>8239</p>
+                <p class="mb-3">SUBSCRIBERS</p>
+                <img src="./images/icon-down.svg">
+                <p class="decrease d-inline">144 Today</p>
               </div>
             </div>
           </div>
@@ -141,21 +135,25 @@
 
     <!-- Start Overview Section -->
     <section class="overview-section">
-      <div class="container">
+      <div class="container px-0">
         <h2 class="mb-4">Overview - Today</h2>
         <div class="row mb-4">
           <div class="col-md-6 col-lg-3">
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Page Views</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-facebook.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>87</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-up.svg">
+                      <p class="increase d-inline">3%</p>
                     </div>
                   </div>
                 </div>
@@ -166,14 +164,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Likes</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-facebook.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7 my-auto">
+                      <h5>52</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-down.svg">
+                      <p class="decrease d-inline">2%</p>
                     </div>
                   </div>
                 </div>
@@ -184,14 +186,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Likes</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-instagram.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>5462</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-up.svg">
+                      <p class="d-inline increase">2257%</p>
                     </div>
                   </div>
                 </div>
@@ -202,14 +208,20 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>
+                        Profile Views
+                      </h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-instagram.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7 my-auto">
+                      <h5>52k</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-up.svg">
+                      <p class="increase d-inline">1375%</p>
                     </div>
                   </div>
                 </div>
@@ -223,14 +235,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Retweets</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-twitter.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>117</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-up.svg">
+                      <p class=" increase d-inline">303%</p>
                     </div>
                   </div>
                 </div>
@@ -241,14 +257,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Likes</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-twitter.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>507</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-up.svg">
+                      <p class="increase d-inline">553%</p>
                     </div>
                   </div>
                 </div>
@@ -259,14 +279,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Likes</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-youtube.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>107</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-down.svg">
+                      <p class="decrease d-inline">19%</p>
                     </div>
                   </div>
                 </div>
@@ -277,14 +301,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">Page Views</div>
-                    <div class="col-6"><img src="./images/icon-facebook.svg"></div>
+                  <div class="row mb-3">
+                    <div class="col-9 my-auto">
+                      <h3>Total Views</h3>
+                    </div>
+                    <div class="col-3"><img class="social-icon" src="./images/icon-youtube.svg"></div>
                   </div>
                   <div class="row">
-                    <div class="col-6">87</div>
-                    <div class="col-6"><img src="images/icon-up.svg">
-                      <p class="d-inline">3%</p>
+                    <div class="col-7">
+                      <h5>1407</h5>
+                    </div>
+                    <div class="col-5 text-right mt-auto"><img src="images/icon-down.svg">
+                      <p class="decrease d-inline">12%</p>
                     </div>
                   </div>
                 </div>
@@ -303,61 +331,7 @@
   Total Followers: 23,004
 
   
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12% -->
+  
 
   <script src="./index.js"></script>
 </body>

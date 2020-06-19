@@ -19,7 +19,6 @@ body {
 
 .header-container h1 {
   color: #1e202a;
-  font-size: 1.5rem;
   font-weight: 800;
 }
 
@@ -102,23 +101,9 @@ input:checked + .slider:before {
   top: -100px;
 }
 
-.facebook-card {
-  border: none;
-  border-top: 5px solid #198ff5;
-}
-
-.twitter-card {
-  border: none;
-  border-top: 5px solid #1ca0f2;
-}
-
-.youtube-card {
-  border: none;
-  border-top: 5px solid #c4032a;
-}
-
 .followers-section .card {
   background: #f0f2fa;
+  border: none;
 }
 
 .followers-section .card .card-title {
@@ -146,12 +131,6 @@ input:checked + .slider:before {
   margin-top: -15px;
 }
 
-h2 {
-  color: #63687e;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
 .overview-section .card {
   background: #f0f2fa;
   border: none;
@@ -160,35 +139,6 @@ h2 {
 .overview-section .card h3 {
   font-size: 0.5rem;
   margin: 0;
-}
-
-.overview-section .card h5 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin: 0;
-}
-
-.overview-section .card .social-icon {
-  height: 25px;
-  width: 25px;
-}
-
-.increase,
-.decrease {
-  font-size: 0.5rem;
-  font-weight: 600;
-}
-
-.increase {
-  color: #1db489;
-}
-
-.decrease {
-  color: #dc414c;
-}
-
-.card:hover {
-  background: #c2c6d3;
 }
 
 .border-1 {

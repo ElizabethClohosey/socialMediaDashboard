@@ -12,11 +12,32 @@ body {
   font-family: $mainFont;
 }
 
+// =============
+// Header
+// =============
+
 .header-container {
-  border: 3px solid red;
+  // border: 3px solid red;
   height: 30vh;
   background: $headerBgLight;
   flex-direction: column row-reverse;
+
+  h1 {
+    color: $primaryDarkBlue;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  p {
+    color: $secondaryTextLight;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: -10px;
+  }
+
+  .dark-mode {
+    margin: 0;
+  }
 }
 
 // ===============
@@ -89,21 +110,114 @@ input:checked + .slider:before {
   position: relative;
   top: -100px;
 }
+// ============================================
+// Followers Section
+// ============================================
+
+.facebook-card {
+  border: none;
+  border-top: 5px solid $facebook;
+}
+
+.twitter-card {
+  border: none;
+  border-top: 5px solid $twitter;
+}
+
+// .instagram-card {
+//   border: none;
+//   border-top: 5px solid red;
+// }
+
+.youtube-card {
+  border: none;
+  border-top: 5px solid $youTube;
+}
 
 // ================
 // Followers Cards
 // ================
 .followers-section .card {
-  // .platform-info {
-  //   margin-bottom: 1rem;
-  // }
+  background: $cardBgLight;
+  // padding-top: 1rem;
+
+  .card-title {
+    color: $secondaryTextLight;
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+
+  img:nth-child(1) {
+    height: 25px;
+    width: 25px;
+    margin-right: 0.25rem;
+  }
+
   p {
     margin: 0;
   }
 
   p:first-of-type {
     font-size: 3rem;
+    font-weight: 900;
   }
+
+  p:nth-of-type(2) {
+    margin-top: -15px;
+  }
+}
+
+// ================
+// Overview Cards
+// ================
+
+h2 {
+  color: $secondaryTextLight;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.overview-section .card {
+  background: $cardBgLight;
+  border: none;
+
+  h3 {
+    font-size: 0.5rem;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .social-icon {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+// =============
+// All Cards
+// =============
+
+.increase,
+.decrease {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.increase {
+  color: $limeGreen;
+}
+
+.decrease {
+  color: $brightRed;
+}
+
+.card:hover {
+  background: $cardHoverLight;
 }
 
 // reference lines
@@ -119,13 +233,3 @@ input:checked + .slider:before {
 .border-4 {
   border: 3px solid gray;
 }
-// $facebook: #198ff5;
-// $twitter: #1ca0f2;
-// $instagram: linear gradient #fdc468 to #df4996;
-// $youTube: hsl(348, 97%, 39%);
-//       // stats
-// $limeGreen: hsl(163, 72%, 41%);
-// $brightRed: hsl(356, 69%, 56%);
-
-// // Toggler
-// $toggleBg: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
