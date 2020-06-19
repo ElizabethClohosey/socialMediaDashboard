@@ -1,0 +1,42 @@
+
+// ===========
+// Fonts
+// ===========
+
+$mainFont: 'Inter', sans-serif;
+
+
+
+
+// ===========
+// Colors 
+// ===========
+
+// Light Mode Colors 
+$white: white; //background
+$headerBgLight: #f5f7ff; //header background
+$cardBgLight: #f0f2fa; //card bg
+$cardHoverLight: #c2c6d3; //card hover
+$secondaryTextLight: #63687e; 
+$toggleLight: hsl(230, 22%, 74%);
+
+
+// Dark Mode Colors
+$headerBgDark: #1f212e; //header background
+$cardBgDark: #252a41; //card bg
+$cardHoverDark: #c2c6d3; //card hover
+$secondaryTextDark: #8b97c6;
+
+// Shared Colors 
+$primaryDarkBlue: #1e202a; //primary text, dark mainBg and toggle circle 
+$facebook: #198ff5;
+$twitter: #1ca0f2;
+$instagram: linear gradient #fdc468 to #df4996;
+$youTube: hsl(348, 97%, 39%); 
+      // stats
+$limeGreen: hsl(163, 72%, 41%);
+$brightRed: hsl(356, 69%, 56%);
+
+// Toggler 
+$toggleBg: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+

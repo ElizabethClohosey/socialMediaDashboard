@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/dark-mode.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_mixins.scss"
+    ],
+    "names": [],
+    "file": "dark-mode.css"
+}

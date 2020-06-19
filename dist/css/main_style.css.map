@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAC;EACH,WAAW,ECAF,OAAO,EAAE,UAAU;CDC7B",
+    "sources": [
+        "../../scss/main_style.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_mixins.scss"
+    ],
+    "names": [],
+    "file": "main_style.css"
+}
