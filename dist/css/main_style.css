@@ -1,4 +1,36 @@
+html,
 body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
   font-family: "Inter", sans-serif;
+}
+
+.header-container {
+  border: 3px solid red;
+  height: 35vh;
+  background: #f5f7ff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column row-reverse;
+          flex-direction: column row-reverse;
+}
+
+.border-1 {
+  border: 3px solid black;
+}
+
+.border-2 {
+  border: 3px solid green;
+}
+
+.border-3 {
+  border: 3px solid orange;
+}
+
+.border-4 {
+  border: 3px solid gray;
 }
 /*# sourceMappingURL=main_style.css.map */

@@ -2,8 +2,34 @@
 @import "../scss/variables";
 @import "../scss/mixins";
 
+html,
 body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
   font-family: $mainFont;
+}
+
+.header-container {
+  border: 3px solid red;
+  height: 35vh;
+  background: $headerBgLight;
+  flex-direction: column row-reverse;
+}
+
+.border-1 {
+  border: 3px solid black;
+}
+.border-2 {
+  border: 3px solid green;
+}
+.border-3 {
+  border: 3px solid orange;
+}
+.border-4 {
+  border: 3px solid gray;
 }
 // $facebook: #198ff5;
 // $twitter: #1ca0f2;
