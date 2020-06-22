@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+  .header-container {
+    padding: 2rem;
+  }
+  .header-container h1 {
+    font-size: 1.25rem;
+  }
+  .main-content {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .seperation-border {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+  }
+  .main-content {
+    top: -50px;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */
