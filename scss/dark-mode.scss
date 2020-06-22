@@ -1,8 +1,90 @@
 @import "../scss/variables";
 @import "../scss/mixins";
 
-// // Dark Mode Variables
-// $headerBgDark: #1f212e; //header background
-// $cardBgDark: #252a41; //card bg
-// $cardHoverDark: #c2c6d3; //card hover
-// $secondaryTextDark: #8b97c6;
+body {
+  background: $bgDark;
+}
+.header-container {
+  background: $bgDark;
+
+  h1 {
+    color: $white;
+  }
+
+  p {
+    color: $secondaryTextDark;
+  }
+
+  .dark-mode {
+    color: $white;
+  }
+}
+
+// ===============
+// Toggle Swicth
+// ===============
+
+/* The slider */
+.slider {
+  background-color: #ccc;
+  background: $toggleBgDark;
+}
+
+// .slider:before {
+//   background-color: $primaryDarkBlue;
+// }
+
+input:checked + .slider {
+  background: $toggleBgDark;
+}
+
+// input:focus + .slider {
+//   box-shadow: 0 0 1px #2196f3;
+// }
+
+// ================
+// Followers Cards
+// ================
+.followers-section .card {
+  background: $cardBgDark;
+
+  .card-title {
+    color: $secondaryTextDark;
+  }
+
+  p:first-of-type {
+    color: $white;
+  }
+
+  p:nth-of-type(2) {
+    color: $secondaryTextDark;
+  }
+}
+
+// ================
+// Overview Cards
+// ================
+
+h2 {
+  color: $white;
+}
+
+h3 {
+  color: $secondaryTextDark;
+}
+
+h5 {
+  color: $white;
+}
+
+.overview-section .card {
+  background: $cardBgDark;
+}
+
+// =============
+// All Cards
+// =============
+
+.card:hover {
+  background: $cardHoverDark;
+}

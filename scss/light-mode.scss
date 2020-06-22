@@ -1,10 +1,67 @@
 @import "../scss/variables";
 @import "../scss/mixins";
 
-// // Light Mode Variables 
-// $white: white; //background
-// $headerBgLight: #f5f7ff; //header background
-// $cardBgLight: #f0f2fa; //card bg
-// $cardHoverLight: #c2c6d3; //card hover
-// $secondaryTextLight: #63687e; 
-// $toggleLight: hsl(230, 22%, 74%);
+.header-container {
+  background: $headerBgLight;
+
+  h1 {
+    color: $primaryDarkBlue;
+  }
+
+  p {
+    color: $secondaryTextLight;
+  }
+}
+
+// ===============
+// Toggle Swicth
+// ===============
+
+/* The slider */
+.slider {
+  background-color: #ccc;
+  background: $toggleBgLight;
+}
+
+// .slider:before {
+//   background-color: $primaryDarkBlue;
+// }
+
+input:checked + .slider {
+  background: $toggleBgLight;
+}
+
+// input:focus + .slider {
+//   box-shadow: 0 0 1px #2196f3;
+// }
+
+// ================
+// Followers Cards
+// ================
+.followers-section .card {
+  background: $cardBgLight;
+
+  .card-title {
+    color: $secondaryTextLight;
+  }
+}
+
+// ================
+// Overview Cards
+// ================
+
+h2 {
+  color: $secondaryTextLight;
+}
+
+.overview-section .card {
+  background: $cardBgLight;
+}
+
+// =============
+// All Cards
+// =============
+
+.card:hover {
+  background: $cardHoverLight;
+}

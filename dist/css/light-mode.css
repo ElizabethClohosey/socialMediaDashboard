@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=light-mode.css.map */
+.header-container {
+  background: #f5f7ff;
+}
+
+.header-container h1 {
+  color: #1e202a;
+}
+
+.header-container p {
+  color: #63687e;
+}
+
+/* The slider */
+.slider {
+  background-color: #ccc;
+  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
+  background: linear-gradient(90deg, #378fe6, #3eda82);
+}
+
+input:checked + .slider {
+  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
+  background: linear-gradient(90deg, #378fe6, #3eda82);
+}
+
+.followers-section .card {
+  background: #f0f2fa;
+}
+
+.followers-section .card .card-title {
+  color: #63687e;
+}
+
+h2 {
+  color: #63687e;
+}
+
+.overview-section .card {
+  background: #f0f2fa;
+}
+
+.card:hover {
+  background: #d8dae6;
+}
+/*# sourceMappingURL=light-mode.css.map */

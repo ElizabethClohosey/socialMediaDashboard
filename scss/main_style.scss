@@ -17,20 +17,17 @@ body {
 // =============
 
 .header-container {
-  // border: 3px solid red;
   padding: 2.5rem 5.75rem;
   height: 30vh;
-  background: $headerBgLight;
-  // flex-direction: column row-reverse;
 
   h1 {
-    color: $primaryDarkBlue;
+    // color: $primaryDarkBlue;
     font-size: 1.5rem;
     font-weight: 800;
   }
 
   p {
-    color: $secondaryTextLight;
+    // color: $secondaryTextLight;
     font-size: 0.75rem;
     font-weight: 600;
     margin-top: -10px;
@@ -68,9 +65,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  // background: rgb(2, 0, 36);
-  background-color: #ccc;
-  background: $toggleBgLight;
+  // background-color: #ccc;
+  // background: $toggleBgLight;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -87,9 +83,9 @@ body {
   transition: 0.4s;
 }
 
-input:checked + .slider {
-  background: $toggleBgDark;
-}
+// input:checked + .slider {
+//   background: $toggleBgDark;
+// }
 
 input:focus + .slider {
   box-shadow: 0 0 1px #2196f3;
@@ -151,11 +147,11 @@ input:checked + .slider:before {
 // Followers Cards
 // ================
 .followers-section .card {
-  background: $cardBgLight;
+  // background: $cardBgLight;
   // padding-top: 1rem;
 
   .card-title {
-    color: $secondaryTextLight;
+    // color: $secondaryTextLight;
     font-size: 0.5rem;
     font-weight: 600;
   }
@@ -187,13 +183,13 @@ input:checked + .slider:before {
 // ================
 
 h2 {
-  color: $secondaryTextLight;
+  // color: $secondaryTextLight;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
 .overview-section .card {
-  background: $cardBgLight;
+  // background: $cardBgLight;
   border: none;
 
   h3 {
@@ -231,20 +227,6 @@ h2 {
   color: $brightRed;
 }
 
-.card:hover {
-  background: $cardHoverLight;
-}
-
-// reference lines
-.border-1 {
-  border: 3px solid black;
-}
-.border-2 {
-  border: 3px solid green;
-}
-.border-3 {
-  border: 3px solid orange;
-}
-.border-4 {
-  border: 3px solid gray;
-}
+// .card:hover {
+//   background: $cardHoverLight;
+// }

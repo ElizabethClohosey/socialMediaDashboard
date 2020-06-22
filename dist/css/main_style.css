@@ -11,17 +11,14 @@ body {
 .header-container {
   padding: 2.5rem 5.75rem;
   height: 30vh;
-  background: #f5f7ff;
 }
 
 .header-container h1 {
-  color: #1e202a;
   font-size: 1.5rem;
   font-weight: 800;
 }
 
 .header-container p {
-  color: #63687e;
   font-size: 0.75rem;
   font-weight: 600;
   margin-top: -10px;
@@ -55,9 +52,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
-  background: linear-gradient(90deg, #378fe6, #3eda82);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -72,11 +66,6 @@ body {
   background-color: #1e202a;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-}
-
-input:checked + .slider {
-  background: -webkit-gradient(linear, left top, right top, from(#3eda82), to(#378fe6));
-  background: linear-gradient(90deg, #3eda82, #378fe6);
 }
 
 input:focus + .slider {
@@ -119,12 +108,7 @@ input:checked + .slider:before {
   border-top: 5px solid #c4032a;
 }
 
-.followers-section .card {
-  background: #f0f2fa;
-}
-
 .followers-section .card .card-title {
-  color: #63687e;
   font-size: 0.5rem;
   font-weight: 600;
 }
@@ -151,13 +135,11 @@ input:checked + .slider:before {
 }
 
 h2 {
-  color: #63687e;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
 .overview-section .card {
-  background: #f0f2fa;
   border: none;
 }
 
@@ -189,25 +171,5 @@ h2 {
 
 .decrease {
   color: #dc414c;
-}
-
-.card:hover {
-  background: #c2c6d3;
-}
-
-.border-1 {
-  border: 3px solid black;
-}
-
-.border-2 {
-  border: 3px solid green;
-}
-
-.border-3 {
-  border: 3px solid orange;
-}
-
-.border-4 {
-  border: 3px solid gray;
 }
 /*# sourceMappingURL=main_style.css.map */
