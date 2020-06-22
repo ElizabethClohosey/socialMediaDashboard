@@ -9,18 +9,17 @@ $mainFont: "Inter", sans-serif;
 // ===========
 
 // Light Mode Colors
-$white: white; //background
 $headerBgLight: #f5f7ff; //header background
 $cardBgLight: #f0f2fa; //card bg
 $cardHoverLight: #d8dae6; //card hover
 $primaryTextLight: #252a41;
 $secondaryTextLight: #66676d;
-// $toggleLight: hsl(230, 22%, 74%);
 
 // Dark Mode Colors
 $bgDark: #1f212e; //header background
 $cardBgDark: #252a41; //card bg
 $cardHoverDark: #373e5d; //card hover
+$primaryTextDark: #ffffff;
 $secondaryTextDark: #8b97c6;
 
 // Shared Colors
@@ -29,10 +28,10 @@ $facebook: #198ff5;
 $twitter: #1ca0f2;
 $instagram: linear-gradient(to right, #fdc468, #df4996);
 $youTube: #c4032a;
+
 // stats
 $limeGreen: #1db489;
 $brightRed: #dc414c;
 
 // Toggler
-$toggleBgLight: linear-gradient(90deg, #378fe6, #3eda82);
-$toggleBgDark: linear-gradient(90deg, #3eda82, #378fe6);
+$toggleBg: linear-gradient(90deg, #378fe6, #3eda82);

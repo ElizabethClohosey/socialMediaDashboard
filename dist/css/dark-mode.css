@@ -7,7 +7,7 @@ body {
 }
 
 .header-container h1 {
-  color: white;
+  color: #ffffff;
 }
 
 .header-container p {
@@ -15,7 +15,7 @@ body {
 }
 
 .header-container .dark-mode {
-  color: white;
+  color: #ffffff;
 }
 
 .followers-section .card {
@@ -27,7 +27,7 @@ body {
 }
 
 .followers-section .card p:first-of-type {
-  color: white;
+  color: #ffffff;
 }
 
 .followers-section .card p:nth-of-type(2) {
@@ -35,7 +35,7 @@ body {
 }
 
 h2 {
-  color: white;
+  color: #ffffff;
 }
 
 h3 {
@@ -43,7 +43,7 @@ h3 {
 }
 
 h5 {
-  color: white;
+  color: #ffffff;
 }
 
 .overview-section .card {

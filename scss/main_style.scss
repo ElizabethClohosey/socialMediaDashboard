@@ -84,7 +84,7 @@ body {
 }
 
 input:checked + .slider {
-  background: $toggleBgLight;
+  background: $toggleBg;
 }
 
 input:focus + .slider {
@@ -186,17 +186,15 @@ input:checked + .slider:before {
 // ================
 
 h2 {
-  // color: $secondaryTextLight;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
 .overview-section .card {
-  // background: $cardBgLight;
   border: none;
 
   h3 {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     margin: 0;
   }
 
@@ -229,7 +227,3 @@ h2 {
 .decrease {
   color: $brightRed;
 }
-
-// .card:hover {
-//   background: $cardHoverLight;
-// }

@@ -4,11 +4,12 @@
 body {
   background: $bgDark;
 }
+
 .header-container {
   background: $bgDark;
 
   h1 {
-    color: $white;
+    color: $primaryTextDark;
   }
 
   p {
@@ -16,10 +17,9 @@ body {
   }
 
   .dark-mode {
-    color: $white;
+    color: $primaryTextDark;
   }
 }
-
 
 // ================
 // Followers Cards
@@ -32,7 +32,7 @@ body {
   }
 
   p:first-of-type {
-    color: $white;
+    color: $primaryTextDark;
   }
 
   p:nth-of-type(2) {
@@ -45,7 +45,7 @@ body {
 // ================
 
 h2 {
-  color: $white;
+  color: $primaryTextDark;
 }
 
 h3 {
@@ -53,7 +53,7 @@ h3 {
 }
 
 h5 {
-  color: $white;
+  color: $primaryTextDark;
 }
 
 .overview-section .card {
