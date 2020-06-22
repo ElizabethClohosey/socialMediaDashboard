@@ -18,18 +18,6 @@ body {
   color: white;
 }
 
-/* The slider */
-.slider {
-  background-color: #ccc;
-  background: -webkit-gradient(linear, left top, right top, from(#3eda82), to(#378fe6));
-  background: linear-gradient(90deg, #3eda82, #378fe6);
-}
-
-input:checked + .slider {
-  background: -webkit-gradient(linear, left top, right top, from(#3eda82), to(#378fe6));
-  background: linear-gradient(90deg, #3eda82, #378fe6);
-}
-
 .followers-section .card {
   background: #252a41;
 }

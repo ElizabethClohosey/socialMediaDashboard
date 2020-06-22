@@ -7,19 +7,7 @@
 }
 
 .header-container p {
-  color: #63687e;
-}
-
-/* The slider */
-.slider {
-  background-color: #ccc;
-  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
-  background: linear-gradient(90deg, #378fe6, #3eda82);
-}
-
-input:checked + .slider {
-  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
-  background: linear-gradient(90deg, #378fe6, #3eda82);
+  color: #66676d;
 }
 
 .followers-section .card {
@@ -27,11 +15,19 @@ input:checked + .slider {
 }
 
 .followers-section .card .card-title {
-  color: #63687e;
+  color: #66676d;
+}
+
+.followers-section .card p:first-of-type {
+  color: #1e202a;
+}
+
+.followers-section .card p:nth-of-type(2) {
+  color: #66676d;
 }
 
 h2 {
-  color: #63687e;
+  color: #66676d;
 }
 
 .overview-section .card {

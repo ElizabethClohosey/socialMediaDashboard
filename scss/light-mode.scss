@@ -13,28 +13,6 @@
   }
 }
 
-// ===============
-// Toggle Swicth
-// ===============
-
-/* The slider */
-.slider {
-  background-color: #ccc;
-  background: $toggleBgLight;
-}
-
-// .slider:before {
-//   background-color: $primaryDarkBlue;
-// }
-
-input:checked + .slider {
-  background: $toggleBgLight;
-}
-
-// input:focus + .slider {
-//   box-shadow: 0 0 1px #2196f3;
-// }
-
 // ================
 // Followers Cards
 // ================
@@ -42,6 +20,14 @@ input:checked + .slider {
   background: $cardBgLight;
 
   .card-title {
+    color: $secondaryTextLight;
+  }
+
+  p:first-of-type {
+    color: $primaryDarkBlue;
+  }
+
+  p:nth-of-type(2) {
     color: $secondaryTextLight;
   }
 }
