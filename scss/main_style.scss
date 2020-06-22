@@ -20,7 +20,7 @@ body {
   // border: 3px solid red;
   height: 30vh;
   background: $headerBgLight;
-  flex-direction: column row-reverse;
+  // flex-direction: column row-reverse;
 
   h1 {
     color: $primaryDarkBlue;
@@ -49,6 +49,7 @@ body {
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin-bottom: 0;
 }
 
 /* Hide default HTML checkbox */
@@ -66,7 +67,9 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  // background: rgb(2, 0, 36);
   background-color: #ccc;
+  background: $toggleBgLight;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -78,13 +81,13 @@ body {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: $primaryDarkBlue;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background: $toggleBgDark;
 }
 
 input:focus + .slider {
@@ -124,10 +127,18 @@ input:checked + .slider:before {
   border-top: 5px solid $twitter;
 }
 
-// .instagram-card {
-//   border: none;
-//   border-top: 5px solid red;
-// }
+.instagram-card {
+  border: none;
+  border: 10px solid transparent;
+  // max-width: 250px;
+  // padding: 1rem;
+  // color: white;
+  border-width: 5px;
+  border-style: solid;
+  // border-image: linear-gradient(#fdc468 to #df4996);
+  // border-image: linear-gradient(to bottom, #fdc468, #df4996) 1 100%;
+  border-image: linear-gradient(to right, red, yellow) 1 100%;
+}
 
 .youtube-card {
   border: none;
