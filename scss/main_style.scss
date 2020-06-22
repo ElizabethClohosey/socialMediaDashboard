@@ -18,6 +18,7 @@ body {
 
 .header-container {
   // border: 3px solid red;
+  padding: 2.5rem 5.75rem;
   height: 30vh;
   background: $headerBgLight;
   // flex-direction: column row-reverse;
@@ -112,6 +113,7 @@ input:checked + .slider:before {
 .main-content {
   position: relative;
   top: -100px;
+  padding: 0 5rem;
 }
 // ============================================
 // Followers Section
@@ -127,18 +129,18 @@ input:checked + .slider:before {
   border-top: 5px solid $twitter;
 }
 
-.instagram-card {
-  border: none;
-  border: 10px solid transparent;
-  // max-width: 250px;
-  // padding: 1rem;
-  // color: white;
-  border-width: 5px;
-  border-style: solid;
-  // border-image: linear-gradient(#fdc468 to #df4996);
-  // border-image: linear-gradient(to bottom, #fdc468, #df4996) 1 100%;
-  border-image: linear-gradient(to right, red, yellow) 1 100%;
-}
+// .instagram-card {
+//   border: none;
+//   border: 10px solid transparent;
+//   // max-width: 250px;
+//   // padding: 1rem;
+//   // color: white;
+//   border-width: 5px;
+//   border-style: solid;
+//   // border-image: linear-gradient(#fdc468 to #df4996);
+//   // border-image: linear-gradient(to bottom, #fdc468, #df4996) 1 100%;
+//   border-image: linear-gradient(to right, red, yellow) 1 100%;
+// }
 
 .youtube-card {
   border: none;

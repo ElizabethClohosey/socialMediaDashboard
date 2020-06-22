@@ -9,6 +9,7 @@ body {
 }
 
 .header-container {
+  padding: 2.5rem 5.75rem;
   height: 30vh;
   background: #f5f7ff;
 }
@@ -100,6 +101,7 @@ input:checked + .slider:before {
 .main-content {
   position: relative;
   top: -100px;
+  padding: 0 5rem;
 }
 
 .facebook-card {
@@ -110,16 +112,6 @@ input:checked + .slider:before {
 .twitter-card {
   border: none;
   border-top: 5px solid #1ca0f2;
-}
-
-.instagram-card {
-  border: none;
-  border: 10px solid transparent;
-  border-width: 5px;
-  border-style: solid;
-  -o-border-image: linear-gradient(to right, red, yellow) 1 100%;
-     border-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow)) 1 100%;
-     border-image: linear-gradient(to right, red, yellow) 1 100%;
 }
 
 .youtube-card {
